@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulator Gerbang Logika</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simulator Gerbang AND</h1>
+        <div class="input-group">
+            <label>Input A (0/1):</label>
+            <button id="inputA" onclick="toggleInput('A')">0</button>
+        </div>
+        <div class="input-group">
+            <label>Input B (0/1):</label>
+            <button id="inputB" onclick="toggleInput('B')">0</button>
+        </div>
+        
+        <div class="result-box">
+            <p>Output Q:</p>
+            <span id="outputQ" class="output-nol">0</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
